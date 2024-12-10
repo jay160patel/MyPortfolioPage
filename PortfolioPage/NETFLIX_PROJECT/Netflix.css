@@ -1,0 +1,399 @@
+body{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI";
+    background-color: #232323;
+    margin: 0;
+}
+.div1{
+    background-color: #232323;
+    margin: 0;
+}
+.main{
+    margin:0;
+    background-image: url(./assets/img1.jpg);
+    height: 690px;
+}
+.logo{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:1rem 0 1rem 0rem;
+height: 30px;
+margin-top:0;
+padding: 24px 32px;
+}
+.logo img{
+    height:80px;
+    margin: 24px 100px;
+}
+.email{
+    color: #fff;
+}
+/* .signup i{
+    height: 2%;
+    color: #fff;
+} */
+.signup{
+    margin-right: 170px;
+}
+#lang{
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    background-color: black;
+    color:#fff;
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+.lang{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    padding-right: 5px 5px;
+    margin: 5px 5px;
+}
+.signup button{
+    background-color: red;
+    border: 3px solid red;
+    font-weight: 600;
+    margin-left: 15px;
+    color: #fff;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+}
+.email{
+    margin-top: 200px;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+}
+.input{
+    height: 40px;
+    width: 320px;
+    padding-left:10px;
+    background-color: black;
+    opacity: 0.7;
+    border: 2px solid white;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.but1{
+    background-color: red;
+    color: #fff;
+    height: 43px;
+    font-weight: 700;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.line{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+.div2{
+    background-color: #000;
+    height: 550px;
+    color: #fff;
+    display: inline-block;
+    width: 1369px;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 150px;
+}
+.div2 h1{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI";
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-top: 170px;
+}
+.div2 p{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI";
+    font-size: large;
+    display: flex;
+    margin: 0;
+}
+.p1{
+    padding-top: 6px;
+}
+.div2 img{
+    height: 450px;
+    width: 580px;
+}
+.div3{
+    background-color: #000;
+    height: 870px;
+    color: #fff;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: x-large;
+}
+.que{
+    display: flex;
+    background-color:#232323;
+    height: 50px;
+    color:#fff;
+    width: 70%;
+    margin-left: 220px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.para2{
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.input2{
+    height: 50px;
+    margin-top: 10px;
+}
+.div4{
+    height: 360px;
+    background-color: #000;
+    margin-top: 10px;
+    color: #fff;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    text-align: start;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.div4 a{
+    color: #fff;
+}
+.div5{
+    width: 80%;
+    height: 180px;
+    background-color:#000;
+    justify-content: space-between;
+}
+.a1{
+    margin-top: 10px;
+}
+/* @media (max-width: 400px){
+    .main{
+        background-image: url(./assets/img1.jpg);
+        height: 460px;
+        width: 1050px;
+        }
+        .logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:1rem 0 1rem 0rem;
+            height: 30px;
+            margin-top: 3px;
+            /* padding: 24px 32px; */
+            /* }
+        .logo img{
+            height:40px;
+            margin-left: 0.5px;
+            margin-right: 50px;
+            }
+            .signup{
+                margin-right: 170px;
+            }
+            #lang{
+                height: 30px;
+                width: 60px;
+                border: 1px solid #121212;
+                background-color: #232323;
+                justify-content: center;
+                text-align: end;
+            }
+            .signup button{
+                margin-right: 0;
+                text-align: center;
+                justify-content: center;
+            }
+            .signup{
+                justify-content: center;
+                text-align: center;
+                margin-right: 15px;
+                padding-right: 50px;
+                padding-left: 70px;
+            }
+            .email{
+                margin-top: 30px;
+                font-size: medium;
+            }
+            .email h3{
+                font-weight: 800;
+            }
+            .but1{
+                margin-top: 15px;
+                display: block;
+                justify-content: center;
+                text-align: center;
+                margin-left:37%;
+            }
+            .div2{
+                display: block;
+                justify-content: center;
+                text-align: center;
+                padding-right: 150px;
+                width: 1050px;
+            }
+            .div2 h1{
+                margin-top: 0;
+                padding-top: 50px;
+                text-align: center;
+                justify-content: center;
+            }
+            h1 p{
+                font-size: small;
+                font-weight: 600;
+                text-align: center;
+                justify-content: center;
+                padding-right: 300px;
+            }
+
+} */
+ /* Responsive Design */
+@media (max-width: 768px) {
+    .main {
+        height: 70vh;
+        background-position: center;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    .signup {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #lang {
+        margin-bottom: 10px;
+    }
+
+    .email {
+        margin-top: 50px;
+        font-size: 24px;
+    }
+
+    .input, .but1 {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .div2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .div2 img {
+        height: 300px;
+        width: auto;
+    }
+
+    .div2 h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .div3 {
+        padding: 30px 20px;
+    }
+
+    .que {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .para2 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .input2 {
+        max-width: 350px;
+    }
+
+    .div4 {
+        padding: 30px 20px;
+    }
+
+    .div5 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        height: 60vh;
+    }
+
+    .email h3 {
+        font-size: 18px;
+    }
+
+    .input {
+        max-width: 300px;
+    }
+
+    .but1 {
+        max-width: 300px;
+    }
+
+    .div2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .div2 img {
+        height: 250px;
+        width: auto;
+    }
+
+    .div2 h1 {
+        font-size: 20px;
+    }
+
+    .div3 {
+        padding: 20px;
+    }
+
+    .para2 {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .input2 {
+        max-width: 300px;
+    }
+}
+ 
