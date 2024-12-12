@@ -59,6 +59,11 @@ nav a:hover {
     transform: translateY(-5px);
 }
 
+#about p {
+    font-size: small;
+    font-weight: 400;
+}
+
 h2, h3 {
     color: #fff;
     animation: fadeInUp 1s forwards;
