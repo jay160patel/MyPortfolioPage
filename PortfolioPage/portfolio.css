@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 #about p {
-    font-size: small;
+    font-size: large;
     font-weight: 400;
 }
 
@@ -400,5 +400,10 @@ footer .contact-info p {
 
     footer .contact-info p {
         font-size: 16px;
+    }
+
+    #about p {
+        font-size: small;
+        font-weight: 400;
     }
 }
